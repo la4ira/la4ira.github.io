@@ -1,0 +1,447 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Welcome to DLG4NLP@ICLR’22!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	
+	<style>
+    table, tr, td {
+        border: 1px solid black;
+        border-collapse: separate;
+        border-spacing: 5px;
+		font: inherit;
+    }
+    tr, td {
+        padding: 5px;
+    }
+	td{
+		vertical-align:middle;
+	}
+    </style>
+	
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+					<!-- Logo -->
+<!--						<img src="images/isail_logo.png" alt="" /><span><h2>Welcome to <a href="index.html" id="logo">iSAIL</a> Lab !</h2></span>-->
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="cfp.html">CFP</a></li>
+								<li class="current"><a href="schedule.html">Schedule</a></li>
+								<li><a href="keynote.html">Keynote</a></li>
+								<li><a href="publications.html">Accepted Papers</a></li>
+								<li><a href="organization.html">Organization</a></li>
+								<li><a href="history.html">History</a></li>
+							</ul>
+						</nav>
+
+				</div>
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2>Welcome to Deep Learning on Graphs for Natural Language Processing (DLG4NLP@ICLR’22)!</h2>
+						<!--<a href="#" class="button">Learn More</a>-->
+					</header>
+				</section>
+
+
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<h2 class="section-heading">Schedule: April 29th, 2022 (Eastern Time)</h2>
+							</div>
+						</div>
+
+
+						<center>
+						<table class="table">
+						<colgroup>
+							<col width="10%" />
+							<col width="68%" />
+							<col width="20%" />
+						</colgroup>
+
+
+						<thead>
+							<tr bgcolor="#f7f1df">
+							<th><h2>Time</h2></th>
+							<th><h2>Title</h2></th>
+							<th><h2>Speakers/Authors</h2></th>
+							</tr>
+						</thead>
+						
+						
+						<tbody>
+						
+												
+							<tr>
+								<td>9:00-9:15am</td>
+								<td>Session: Opening Remarks</td>
+								<td style="text-align:center">
+							
+									<table style="border:0;">
+										<tr style="border:0;text-align:center;vertical-align:middle">
+											<td style="border:0;">
+												<a href="https://sites.google.com/view/jpei/jian-peis-homepage">
+													<img src="images/pei.jpg" width="100px">
+													<div class="caption">Jian Pei</div>
+												</a>
+											</td>
+											<td style="border:0;">
+												<a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">
+													<img src="images/lingfei.jpg" width="100px"> 
+													<div class="caption">Lingfei Wu</div>
+												</a>
+											</td>
+											<td style="border:0;">
+												<a href="http://www-labs.iro.umontreal.ca/~liubang/">
+													<img src="images/bang.jpg" width="100px"> 
+													<div class="caption">Bang Liu</div>
+												</a>
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+								
+							</tr>
+							<tr>
+								<td>9:15-10:00am</td>
+								<td>
+									<em>Keynote talk 1: What Dense Graph Do You Need for Self-Attention?</em> <a href="slides/WhatDenseGraphDoYouNeed.pdf" target="_blank">[slides]</a>
+									</br>
+									</br>
+									<p>
+										Abstract: Transformers have made progress in miscellaneous tasks, but suffer from quadratic computational and memory complexities. Recent works propose sparse Transformers with attention on sparse graphs to reduce complexity and remain strong performance. While effective, the crucial parts of how dense a graph needs to be to perform well are not fully explored. In this talk, we introduce Normalized Information Payload (NIP), a graph scoring function measuring information transfer on graph, which provides an analysis tool for trade-offs between performance and complexity. Guided by this theoretical analysis, we present Hypercube Transformer, a sparse Transformer that models token interactions in a hypercube and shows comparable or even better results with vanilla Transformer while yielding O(NlogN) complexity with sequence length N.
+									</p>
+								</td>
+								<td style="text-align:center;vertical-align:middle">
+									<div id="images">
+										<a href="https://xpqiu.github.io/en.html">
+											<img src="images/xpqiu.jpg" width="200px"> 
+											<div class="caption">Xipeng Qiu, Fudan University</div>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>10:00-10:45am</td>
+								<td>
+									<em>Keynote talk 2: A Closer Look at Structure and Sparsity in Graph Based Natural Language Understanding.</em>
+									</br>
+									</br>
+									<p>
+										Abstract: Graph based approaches have been increasingly utilized for different NLP applications, however, what types of structures should be leveraged and to what extent these graph structures help still remain challenging. In this talk, we take a closer look at graph neural networks via two typical NLP applications: structure-aware conversation summarization and knowledge-graph enhanced question answering. Concretely, the first section looks at how to utilize graph structures to better encode discourse relations and actions in conversations for improved dialogue summarization, and the second part dissects state-of-the-art graph neural network modules and their reasoning capability for question answering.
+									</p>
+								</td>
+								<td style="text-align:center;vertical-align:middle">
+									<div id="images">
+										<a href="https://faculty.cc.gatech.edu/~dyang888/">
+											<img src="images/Diyi_Yang.jpg" width="200px"> 
+											<div class="caption">Diyi Yang, Georgia Tech</div>
+										</a>
+									</div>								
+								</td>
+							</tr>
+
+							<tr>
+								<td>10:45-11:00am</td>
+								<td>Coffee Break/Social Networking</td>
+								<td style="text-align:center"></td>
+							</tr>
+
+							<tr>
+								<td>11:00-11:45am</td>
+								<td>
+									<em>Panel topic: GNNs Vs Pretraining (Transformers): Friends or Enemy?</em> 
+									</br>
+									</br>
+									Panelists: Michael Perlmutter (UCLA), Linfeng Song (Tencent AI), Jian Tang (UMontreal and MILA), Jingbo Shang (UC San Diego), Meng Jiang (Notre Dame)
+								</td>
+								<td style="text-align:center;vertical-align:middle">
+								
+									<table style="border:0;">
+										<tr style="border:0;text-align:center;vertical-align:middle">
+											<td style="border:0;">
+												<a href="https://sites.google.com/view/perlmutma/home">
+													<img src="images/perlmutter.jpg" width="100px"> 
+													<div class="caption">Michael Perlmutter</div>
+												</a>
+											</td>
+											<td style="border:0;">
+												<a href="https://freesunshine0316.github.io">
+													<img src="images/song.jpeg" width="100px"> 
+													<div class="caption">Linfeng Song</div>
+												</a>
+											</td>
+											<td style="border:0;">
+												<a href="https://jian-tang.com">
+													<img src="images/jian.jpg" width="100px"> 
+													<div class="caption">Jian Tang</div>
+												</a>
+											</td>
+										</tr>
+
+										<tr style="border:0;text-align:center;vertical-align:middle">
+											<td style="border:0;">
+												<a href="https://shangjingbo1226.github.io">
+													<img src="images/shang.jpg" width="100px"> 
+													<div class="caption">Jingbo Shang</div>
+												</a>
+											</td>
+											<td style="border:0;">
+												<a href="http://www.meng-jiang.com">
+													<img src="images/meng.jpg" width="100px"> 
+													<div class="caption">Meng Jiang</div>
+												</a>
+											</td>
+											<td style="border:0;">
+												
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+							</tr>
+
+							
+							<tr>
+								<td>11:45-1:00pm</td>
+								
+								<td>
+									<p>Five Contributed Talks (each 15 minutes) <div class="myline"></div></p>
+									
+									<p>(11:45-12:00pm) Talk 1: Yinquan Lu et al., <em>KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs</em> <a href="https://openreview.net/pdf?id=FkG-sX5CE_" target="_blank">[paper]</a> <div class="myline"></div> </p>
+	
+									<p>(12:00-12:15pm) Talk 2: Bai Xuefeng, <em>Semantic Representation for Dialogue Modeling</em> <a href="https://aclanthology.org/2021.acl-long.342.pdf" target="_blank">[paper]</a> <div class="myline"></div> </p>
+
+									<p>(12:15-12:30pm) Talk 3: Shengyao Lu, <em>R5: Rule Discovery with Reinforced and Recurrent Relational Reasoning</em> <a href="https://openreview.net/pdf?id=2eXhNpHeW6E" target="_blank">[paper]</a> <div class="myline"></div> </p>
+
+									<p>(12:30-12:45pm) Talk 4: Yuxian Meng et al., <em>GNN-LM: Language Modeling Based on Global Contexts via GNN</em> <a href="https://openreview.net/pdf?id=BS49l-B5Bql" target="_blank">[paper]</a> <div class="myline"></div> </p>
+
+									<p>(12:45-1:00pm) Talk 5: Leonardo Ribeiro, <em>Improving Graph-to-Text Generation with Neural Graph Encoders and Pretrained Language Models</em> <a href="https://aclanthology.org/2021.emnlp-main.351.pdf" target="_blank">[paper]</a>  </p>
+									
+								</td>
+								<td style="text-align:center"></td>
+							</tr>
+
+							<tr>
+								<td>2:00-2:45pm</td>
+								<td>
+									<em>Keynote talk 3: Improving Interpretability and Generalization with Structured Neural Transduction.</em>
+									</br>
+									</br>
+									<p>
+										Abstract: Sequence and graph prediction problems can generally be handled with 'unstructured' sequence-to-sequence models, often leading to strong performance, especially in i.i.d. settings. In this talk, instead, I will discuss alternatives that approach the transduction process in a 'structured' way, aiming for improved interpretability and out-of-distribution generalization. In the first part, I will discuss how a text-to-graph generation problem can be tackled by inducing graph decomposition and alignments as part of learning. This method yields a neural graph generator that, at inference time, simply tags the input sequence with graph fragments. We will see how this idea is used to produce an accurate (AMR) and transparent semantic parser. In the second part, I will discuss how seq-to-seq problems can be handled by a neural model which models the 'translation' process as structured permutation and monotonic translation of the subsequences. We will see that this structured method leads to improvements in out-of-distribution ("compositional") generalization on semantic parsing and machine translation tasks. 
+										</br>
+										Work with Bailin Wang, Chunchuan Lyu, Mirella Lapata, and Shay Cohen.
+									</p>
+								</td>
+								<td style="text-align:center">
+									
+									<div id="images">
+										<a href="http://ivan-titov.org">
+											<img src="images/ititov.jpg" width="200px"> 
+											<div class="caption">Ivan Titov, University of Edinburgh</div>
+										</a>
+									</div>		
+								</td>
+							</tr>
+
+
+							<tr>
+								<td>2:45-3:30pm</td>
+								<td>
+									<em>Keynote talk 4: Geometric Scattering: Graph Neural Nets that Preserve High-Frequency Information.</em> <a href="slides/DLG4NLP_Perlmutter.pdf" target="_blank">[slides]</a>
+									</br>
+									</br>
+									<p>
+										Abstract: Many advances in deep learning exploit the intrinsic structure of the data. For instance, Convolutional Neural Networks leverage the fact that images are a regular grid of pixels, whereas recurrent neural networks exploit the temporal structure of text-based data. Inspired by this success, the new field of geometric deep learning aims to develop deep learning architectures for datasets such as graphs and manifolds with less regular structure. 
+									</br>
+										A principal challenge in this endeavor is defining a proper notion of convolutional filters. Many graph neural networks propose to define graph convolution as a localized averaging operation. While these networks achieve great success on benchmark datasets, they are known to suffer from the oversmoothing problem, i.e., they do not preserve high-frequency information. This motivates us to define an alternative, wavelet-based model of graph neural networks known as the graph scattering transform. In its initial form, the graph scattering transform is a handcrafted network with no learnable parameters (except in the final layer). This version of the graph scattering transform has the advantage of (i) being amenable to rigorous mathematical analysis and (ii) not requiring much training data. However, handcraftedness is also a form of rigidity that limits the ability of the network to learn. Therefore, I will also introduce several new variations of the graph scattering transform which are able to learn from data.
+									</p>
+								</td>
+								<td style="text-align:center">
+									
+									<div id="images">
+										<a href="https://sites.google.com/view/perlmutma/home">
+											<img src="images/perlmutter.jpg" width="200px"> 
+											<div class="caption">Michael Perlmutter, University of California, Los Angeles</div>
+										</a>
+									</div>
+							</tr>
+
+							
+							<tr>
+								<td>3:30-3:45pm</td>
+								<td>Coffee Break/Social Networking</td>
+								<td style="text-align:center"></td>
+							</tr>
+
+							<tr>
+								<td>3:45-4:15pm</td>
+								<td>
+									<p>Position Talk <div class="myline"></div></p>
+									<p>(3:45-4:00pm) P1: Graph4NLP: A Library for Deep Learning on Graphs for NLP, Yu Chen (Meta AI) <div class="myline"></div></p>
+									<p>(4:00-4:15pm) P2: Efficient and effective training of language and graph neural network models, Vassilis N. Ioannidis (AWS Graph ML)</p>
+								</td>
+								<td style="text-align:center">
+									<div id="images">
+										<a href="http://academic.hugochan.net">
+											<img src="images/yuchen.jpeg" width="100px"> 
+											<div class="caption">Yu Chen</div>
+										</a>
+										<a href="https://sites.google.com/site/vasioannidispw/">
+											<img src="images/vassilis.jpg" width="100px"> 
+											<div class="caption">Vassilis N. Ioannidis</div>
+										</a>
+									</div>
+
+								</td>
+							</tr>
+
+
+							<tr>
+								<td>4:15-5:45pm</td>
+								
+								<td>
+									<p>Six Contributed Talks (each 15 minutes)	<div class="myline"></div> </p>
+									
+									<p>(4:15-4:30pm) Talk 6: Abhay M Shalghar et al., <em>Document Structure aware Relational Graph Convolutional Networks for Ontology Population</em> <a href="https://openreview.net/references/pdf?id=BuGQzUrJVx" target="_blank">[paper]</a>  <div class="myline"></div> </p>
+
+									<p>(4:30-4:45pm) Talk 7: Kunze Wang et al., <em>ME-GCN: Multi-dimensional Edge-Embedded Graph Convolutional Networks for Semi-supervised Text Classification</em> <a href="https://openreview.net/pdf?id=S8mgEw6SbG5" target="_blank">[paper]</a> 	<div class="myline"></div> </p>
+
+									<p>(4:45-5:00pm) Talk 8: Yuchen Zeng et al., <em>Combinatorial Scientific Discovery: Finding New Concept Combinations Beyond Link Prediction</em> <a href="https://openreview.net/references/pdf?id=8gY6yJtqQ" target="_blank">[paper]</a> 	<div class="myline"></div>  </p>
+
+									<p>(5:00-5:15pm) Talk 9: Zhibin Chen et al., <em>Entailment Graph Learning with Textual Entailment and Soft Transitivity</em> <a href="https://arxiv.org/pdf/2204.03286.pdf" target="_blank">[paper]</a> 	<div class="myline"></div>  </p>
+
+									<p>(5:15-5:30pm) Talk 10: Xin Xie et al., <em>From Discrimination to Generation: Knowledge Graph Completion with Generative Transformer</em> <a href="https://openreview.net/references/pdf?id=HwQvURN1a5" target="_blank">[paper]</a>  	<div class="myline"></div>  </p>
+
+									<p>(5:30-5:45pm) Talk 11: Ran Song et al., <em>Ontology-guided and Text-enhanced Representation for Knowledge Graph Zero-shot Relational Learning</em>  <a href="https://openreview.net/references/pdf?id=sWuPWO0aun" target="_blank">[paper]</a>  </p>
+									
+								</td>
+								<td style="text-align:center"></td>
+							</tr>
+
+
+							
+						<tr>
+							<td>5:45-6:00pm</td>
+							<td>Closing remarks</td>
+							<td style="text-align:center;vertical-align:middle">
+								
+
+								<table style="border:0;">
+									<tr style="border:0;text-align:center;vertical-align:middle">
+										<td style="border:0;">
+											<a href="https://sites.google.com/view/jpei/jian-peis-homepage">
+												<img src="images/pei.jpg" width="100px">
+												<div class="caption">Jian Pei</div>
+											</a>
+										</td>
+										<td style="border:0;">
+											<a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">
+												<img src="images/lingfei.jpg" width="100px"> 
+												<div class="caption">Lingfei Wu</div>
+											</a>
+										</td>
+										<td style="border:0;">
+											<a href="http://www-labs.iro.umontreal.ca/~liubang/">
+												<img src="images/bang.jpg" width="100px"> 
+												<div class="caption">Bang Liu</div>
+											</a>
+										</td>
+									</tr>
+								</table>
+							
+							</td>
+						</tr>
+
+
+							
+						</tbody>
+						</table>
+						</center>
+
+
+					
+					<!-- add three lines to debug: -->
+					</section>
+				</article>
+			  </div>
+
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+							<section class="col-6 col-12-narrower">
+								<h3>Get In Touch</h3>
+								<!-- <style>
+									table, tr, td {
+										border: 1px solid rgb(0, 0, 0);
+										border-collapse: separate;
+										border-spacing: 5px;
+										font: inherit;
+									}
+									tr, td {
+										padding: 5px;
+									}
+									td{
+										vertical-align:middle;
+									}
+									</style> -->
+								<table style="width: 90%;border: 0px solid;border-spacing: 0px">
+									<tbody>
+										<tr class="trow">
+											<td style="border: 0px;padding: 0px"><i class="fa fa-envelope" style="font-size: 20px;"></i> <a href="mailto:dlg4nlp.workshop@gmail.com">dlg4nlp.workshop@gmail.com</a></td>
+										</tr>
+										<!-- <tr class="trow"></tr>
+											<td style="border: 0px;padding: 0px"><i class="fa fa-envelope" style="font-size: 20px;"></i> <a href="mailto:second@mail">second@mail">second@mail</a></td>
+										</tr> -->
+									</tbody>
+								</table>
+							</section>
+						</div>
+					</div>
+
+					<!-- Icons -->
+						<!-- <ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+						</ul> -->
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; DLG4NLP. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
