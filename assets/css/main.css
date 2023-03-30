@@ -2699,16 +2699,14 @@ input, select, textarea {
 
 	#banner {
 		background-image: url("../../images/workshop_main.jpg");
-		/* background-position: center center; */
+		background-position: center center;
 		background-size: cover;
-		/* height: 30em; */
-		/* width:em; */
+		height: 28em; */
 		text-align: center;
 		position: relative;
 	}
-
 		#banner header {
-			position: relative;
+			position: absolute;
 			bottom: 0;
 			left: 0;
 			width: 500px;
