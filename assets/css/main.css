@@ -2711,7 +2711,7 @@ input, select, textarea {
 			position: relative;
 			bottom: 0;
 			left: 0;
-			width: 100%;
+			width: 500px;
 			background: #212121;
 			background: rgba(27, 27, 27, 0.75);
 			color: #fff;
