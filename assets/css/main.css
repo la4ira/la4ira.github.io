@@ -2700,7 +2700,7 @@ input, select, textarea {
 	#banner {
 		background-image: url("../../images/workshop_main.jpg");
 		/* background-position: center center; */
-		background-size: cover;
+		background-size: 300px 150px;
 		/* height: 30em; */
 		/* width:em; */
 		text-align: center;
