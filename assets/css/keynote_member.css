@@ -7,6 +7,7 @@
 .member img.member-profile {
     width: 9em;
     height: 9em;
+    margin: 1.2em;
     object-fit: cover;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
