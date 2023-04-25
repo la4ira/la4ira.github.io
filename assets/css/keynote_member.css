@@ -1,0 +1,28 @@
+.member {
+    display: inline-block;
+    text-align: left;
+    margin: 1.2em
+}
+
+.member img.member-profile {
+    width: 9em;
+    height: 9em;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%
+}
+
+.member .member-name {
+    color: #5b5b60;
+    font-size: 1em;
+    line-height: 1.5em
+}
+
+.member .member-info {
+    color: #5b5b60;
+    font-size: 0.8em;
+    line-height: 1.5em
+}
