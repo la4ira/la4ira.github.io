@@ -2698,7 +2698,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/workshop_main.jpg");
+		background-image: url("../../images/banner_robot_learning.JPG");
 		background-position: center center;
 		background-size: cover;
 		height: 18em;
