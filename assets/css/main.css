@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+port url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 /*
@@ -2407,6 +2407,7 @@ input, select, textarea {
 
 			table.default th {
 				font-weight: 600;
+				font-size: 75%;
 				padding: 0.5em 1em 0.5em 1em;
 				text-align: left;
 			}
